@@ -10,9 +10,11 @@ build/
 
 # --- IDE та редактори (VS Code, CLion тощо) ---
 .vscode/
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
+*.code-workspace
 .idea/
 *.suo
 *.ncb

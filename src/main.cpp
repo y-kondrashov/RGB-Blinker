@@ -1,27 +1,22 @@
 #include <Arduino.h>
 
-const int ledPin = 5;
-
-// put function declarations here:
-int myFunction(int, int);
+const int ledPin_Red = 4;
+const int ledPin_Blue = 5;
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
-
-  pinMode(ledPin, OUTPUT);
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  pinMode(ledPin_Red, OUTPUT);
+  pinMode(ledPin_Blue, OUTPUT);
 }
 
 // the loop function runs over and over again forever
 void loop()
 {
-  digitalWrite(ledPin, HIGH);
-  delay(500);
-  digitalWrite(ledPin, LOW);
-  delay(500);
+  digitalWrite(ledPin_Red, HIGH);
+  delay(300);
+  digitalWrite(ledPin_Red, LOW);
+  printf("Red\n");
+  digitalWrite(ledPin_Blue, HIGH);
+  delay(300);
+  digitalWrite(ledPin_Blue, LOW);
+  printf("Blue\n");
 }
