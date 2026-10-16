@@ -1,4 +1,6 @@
 # RGB Blinker
+<img width="632" height="465" alt="image" src="https://github.com/user-attachments/assets/15990983-be06-4acd-817f-6946bc38555f" />
+
 
 Невеликий проєкт на Arduino framework для ESP32-S3, який почергово блимає червоним і синім світлодіодами та імітує роботу поліцейської мигалки.
 
